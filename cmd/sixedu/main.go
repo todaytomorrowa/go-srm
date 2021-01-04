@@ -20,7 +20,7 @@ func ref(i interface{}) {
 
 	for i := 0; i < rt.NumField(); i++ {
 		fmt.Println("i 中元素字段:", rt.Field(i).Name)
-		//fmt.Println("i 中元素字段:", rt.Field(i).Name)
+		fmt.Println("i 中元素字段:", rt.Field(i).Name)
 
 	}
 
